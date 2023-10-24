@@ -13,8 +13,8 @@
 body{
 	font-family: "Sansation Light";
 	background: url("Images for Content/home_back.jpg");
-	background-repeat: repeat-x;
-	background-size: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 
