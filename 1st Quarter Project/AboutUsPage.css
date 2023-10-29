@@ -1,0 +1,213 @@
+@import url(https://db.onlinewebfonts.com/c/a163d087c4bfdff182eb1b4fcc595798?family=Sansation+Light);
+@import url(https://www.fontspace.com/feelfree-font-f88999);
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;	
+	list-style: none;
+	box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Sansation Light";
+	background: lightgoldenrodyellow;
+}
+
+
+
+.header-bar{
+    height: 80px;
+    width: 100%;
+    background: gray;
+}
+
+label.logo{
+	margin: 3px;
+    padding: 2px 4px 10px 4px;
+
+	line-height: 80px;
+	
+	font-size: 35px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: bold;
+
+    color: lightyellow;
+	background-color: green;
+
+	font-weight: bold;
+	border: 3px solid #000000;
+	border-style:outset;
+	outline-style: outset;
+	outline-color: gray;
+
+
+}
+
+label.company{
+	padding: 4px 4px 4px 4px;
+
+	font-size: 55px;
+	font-family: Feelfree Personal Use;
+	font-weight: bold;
+
+	color:white;
+	background-color: blue;
+
+	border: 3px solid #000000;
+	border-style:outset;
+	outline-style: outset;
+	outline-color: black;
+}
+
+.header-bar .search_bar{
+	padding: 10px 0px;
+	margin-right: 40px;
+	
+	width: 80px;
+
+	
+	float: right;
+	cursor: pointer;
+}
+
+.header-bar ul{
+	
+	
+	margin-right: 300px;	
+	float: right;
+}
+
+.header-bar ul li{
+	display: inline-block;
+	line-height: 80px;
+}
+
+.header-bar ul li a{
+	padding: 7px 13px;
+	
+	color: white;
+
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	border-radius: 3px;
+	border: 3px solid white;
+	border-style:outset;
+	outline-style: outset;
+	outline-color: gray;
+	
+	background: black;
+}
+
+.header-bar ul li#arrow{
+	color: white;
+
+	font-weight: bold;
+}
+
+.header-bar ul li a:hover{
+	background: goldenrod;
+
+	transition: .5s;
+	cursor:pointer;
+}
+
+
+
+
+.About_Section {
+	margin-top: 80px;
+	margin-left: 150px;
+	margin-right: 60px;
+}
+
+.About_Section h1{
+	font-size: 50px;
+	font-style: italic;
+	font-style: bold;
+	font-weight: bold;
+}
+
+.About_Section p{
+	text-align: justify;
+	text-indent: 2in;
+	margin-top: 10px;
+}
+
+.attached_image{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 50px;
+	float: right;
+	
+}
+
+p .Paragraph-Links{
+	color: blue;
+	font-size: 15px;
+}
+
+p .bold{
+	font-weight: bold;
+	font-size: 23px;
+}
+
+p .italic{
+	font-style: italic;
+}
+
+.About_Section h3{
+	margin-top: 20px;
+	font-style:italic;
+	font-style: bold;
+	font-weight: bold;
+
+}
+
+.About_Section .Contacts{
+	margin-bottom: 50px;
+}
+
+
+.navigation_bar{
+	line-height: 80px;
+	width: 100%;
+	background: gray;
+}
+
+.navigation_bar .Closing_Remarks{
+	margin-left: 40px;
+	margin-bottom: 80px;
+	text-indent: 50px;
+	font-size: 29px;
+}
+
+.navigation_bar .hook{
+	margin-left: 500px;
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+.navigation_bar .Content_Page_Button {
+	margin-top: -80px;
+	margin-left: 1000px;
+}
+
+.navigation_bar .Content_Page_Button ul li a{
+	padding: 7px 13px;
+
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	color: white;
+	background: orange;
+	opacity: 0.8;
+
+	border-radius: 3px;
+	border: 3px solid black;
+}
+
